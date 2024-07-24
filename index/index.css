@@ -95,7 +95,7 @@ body {
 
 /* hero section */
 #hero {
-  background-image: url("assets/hero-bcg.jpeg");
+  background-image: url("/assets/hero-bcg.jpeg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -115,7 +115,7 @@ body {
   color: #088178;
 }
 #hero button {
-  background-image: url("assets/v231-wit-03-job105.jpg");
+  background-image: url("/assets/v231-wit-03-job105.jpg");
   background-color: transparent;
   color: #088178;
   border: 0;
