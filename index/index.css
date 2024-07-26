@@ -296,7 +296,26 @@ body {
 #banner h2 span {
   color: #ef3636;
 }
-#banner button:hover{
+#banner button:hover {
   background: #088178;
   color: #fff;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("/assets/wallpapers/monstera-8165765_1280.jpg");
+  min-width: 500px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
