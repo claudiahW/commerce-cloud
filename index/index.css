@@ -568,11 +568,15 @@ footer .copyright {
     padding-left: 20px;
   }
 
-  #close{
+  #close {
+    display: initial;
     position: absolute;
     top: 30px;
     left: 30px;
     color: #222;
     font-size: 24px;
+  }
+  #lg-bag {
+    display: none;
   }
 }
