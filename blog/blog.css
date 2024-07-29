@@ -604,31 +604,32 @@ footer .copyright {
   transition: 0.3s;
 }
 
-#blog .blog-details a::after{
-content: "";
-width: 50px;
-height: 1px;
-background-color: #000;
-position: absolute;
-top: 4px;
-right: -60px;
+#blog .blog-details a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 4px;
+  right: -60px;
 }
 
-#blog .blog-details a:hover{
-color: #088178;
+#blog .blog-details a:hover {
+  color: #088178;
 }
 
-#blog .blog-details a:hover::after{
-background-color: #088178;
+#blog .blog-details a:hover::after {
+  background-color: #088178;
 }
 
-#blog .blog-box h1{
-position: absolute;
-top: -40px;
-left: 0;
-font-size: 70px;
-font-weight: 700;
-color: #c9cbce;
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbce;
+  z-index: -9;
 }
 
 /* Start media query */
