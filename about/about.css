@@ -553,6 +553,18 @@ footer .copyright {
   height: auto;
 }
 
+#about-head div {
+  padding-left: 40px;
+}
+
+#about-app {
+  text-align: center;
+}
+
+#about-app .video {
+  width: 70%;
+  height: 100%;
+}
 #page-header h2 {
   color: #fff;
 }
