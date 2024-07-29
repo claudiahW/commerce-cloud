@@ -531,6 +531,11 @@ footer .copyright {
   text-align: center;
 }
 
+/* Blog Page */
+#page-header .blog-header{
+  background-image: url("/assets/blog/banner1.jpg");
+}
+
 /* Start media query */
 
 @media (max-width: 799px) {
