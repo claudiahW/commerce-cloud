@@ -847,6 +847,19 @@ footer .copyright {
   margin-right: 10px;
   border: 1px solid #e2e9e1;
 }
+
+#coupon button {
+  background-color: #088178;
+  color: #fff;
+  padding: 12px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
 /* Start media query */
 
 @media (max-width: 799px) {
