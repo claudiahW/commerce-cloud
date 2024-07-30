@@ -672,11 +672,13 @@ footer .copyright {
   width: 40%;
 }
 
-#contact-details .details span {
+#contact-details .details span,
+#form-details form span {
   font-size: 12px;
 }
 
-#contact-details .details h2 {
+#contact-details .details h2,
+#form-details form h2 {
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
@@ -714,11 +716,18 @@ footer .copyright {
 }
 
 #form-details form {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+#form-details form input {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
 }
 /* Start media query */
 
